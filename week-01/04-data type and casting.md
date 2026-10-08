@@ -30,6 +30,24 @@ var_dump($completed) // var_dump() gives us both types and values
     ```php
     $arr = [1,2,'a',true, 3.14];
     print_r($arr);
+
+    ## Arrays
+
+    /* Indexed arrays use numeric keys starting at `0`. Associative arrays use named keys.*/
+
+
+    $colors = ["red", "green", "blue"];
+    echo $colors[0]; // red
+    $colors[] = "yellow"; // append
+
+    $person = [
+    	"name" => "Ari",
+    	"age" => 20,
+    ];
+    echo $person["name"];
+    echo count($colors); // number of items
+
+
     ```
     - object
     - callable
@@ -116,23 +134,6 @@ switch ($day) {
 	default:
 		echo "Another day";
 }
-```
-
-## Arrays
-
-Indexed arrays use numeric keys starting at `0`. Associative arrays use named keys.
-
-```php
-$colors = ["red", "green", "blue"];
-echo $colors[0]; // red
-$colors[] = "yellow"; // append
-
-$person = [
-	"name" => "Ari",
-	"age" => 20,
-];
-echo $person["name"];
-echo count($colors); // number of items
 ```
 
 ## Loops
