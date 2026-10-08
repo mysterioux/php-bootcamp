@@ -1,6 +1,6 @@
 /_ Data Types & Type Casting _/
 
-## Scalar types
+## 4 Scalar types
 
     - bool (true / false)
     - int (0,1,2,3 etc)
@@ -19,19 +19,48 @@ echo gettype($score);
 echo gettype($price);
 echo gettype($greeting);
 
+var_dump($completed) // var_dump() gives us both types and values
+
 ```
 
-## Compound types
+## 4 Compound types
 
     - array
+
+    ```php
+    $arr = [1,2,'a',true, 3.14];
+    print_r($arr);
+    ```
     - object
     - callable
     - iterable
 
-## Special type
+## 2 Special type
 
     - resources
     - null
+
+// Using strict types
+
+```php
+declare(strict_types=1)
+
+function sum(int $a, int $b){
+	return $a + $b;
+}
+echo sum(10, 2);
+echo sum("10",2); // will spill an error
+
+```
+
+// Casting
+
+```php
+$price = "9.99";
+$price_float = (float) $price; // (float) "9.99"
+$price_int = (int) $price;
+
+```
 
 ## Operators
 
