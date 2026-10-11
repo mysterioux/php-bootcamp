@@ -32,6 +32,6 @@ Choose a task manager, reading tracker, or inventory app. Keep the scope managea
 
 ## General
 
-- The program was organized the Programming Community for PHP/Laravel
+- The program was organized by the Programming Community for PHP/Laravel
 
 @Name: CCEmenike (Participant)
