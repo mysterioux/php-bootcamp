@@ -18,10 +18,10 @@ define('PROJECT_DEVELOPER', 'CCEmenike');
     $greeting = "Welcome to our bank"; //string
 
     // To know the types
-    echo gettype($completed). "<br>";
-    echo gettype($score). "<br>";
-    echo gettype($price). "<br>";
-    echo gettype($greeting). "<br>";
+    // echo gettype($completed). "<br>";
+    // echo gettype($score). "<br>";
+    // echo gettype($price). "<br>";
+    // echo gettype($greeting). "<br>";
     // using var_dump to know the types and values
     var_dump($completed);
     echo "<br>";
