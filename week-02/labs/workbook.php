@@ -126,3 +126,7 @@ echo "The value of fruits after removing the last element is: ";
 echo "<pre>";
 print_r($fruits);
 echo "</pre>";
+echo "<br>";
+echo str_repeat("*", 100);
+
+$x = file('Context.txt');
